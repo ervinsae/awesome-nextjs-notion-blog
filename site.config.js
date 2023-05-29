@@ -21,7 +21,7 @@ module.exports = {
   github: 'ervin',
   wechatPublicName: 'ervin',
   wechatPublicURL: 'https://ervinsae.github.io/',
-  notionPublic: 'https://frankcbliu.notion.site/6a76fdd9ec6d4ae2855aa790d620eec4',
+  notionPublic: '',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -40,7 +40,7 @@ module.exports = {
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   // set null to remove from year
   copyRightFromYear: 2019,
